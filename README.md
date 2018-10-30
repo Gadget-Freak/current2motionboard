@@ -13,7 +13,7 @@ Hardware Requirements
 Network Requirements
 =============
 
-* 2.4GHz WifiAP(11b/11bn/11g) with NOT enterprise authentication required. 5GHz(11a/11ac) is not supported.
+* 2.4GHz WifiAP(11b/11g) with NOT enterprise authentication required. 5GHz(11a/11ac) is not supported.
 
 Software Requirements
 ==========
