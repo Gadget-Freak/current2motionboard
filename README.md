@@ -10,6 +10,11 @@ Hardware Requirements
 
 * [M5Stack](http://m5stack.com/)
 
+Network Requirements
+=============
+
+* 2.4GHz WifiAP(11b/11bn/11g) with NOT enterprise authentication required. 5GHz(11a/11ac) is not supported.
+
 Software Requirements
 ==========
 
