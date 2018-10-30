@@ -1,8 +1,8 @@
 What's this?
 --------------
 
-* This is Arduino sketch works with CT sensor(CTT-10-CLS-CV10), M5Stack and MotionBoard Cloud.  
-* you can measure current and send to MotionBoard Cloud(WebAPI/systemdatasources).
+This is Arduino sketch works with CT sensor(CTT-10-CLS-CV10), M5Stack and MotionBoard Cloud.  
+you can measure current and send to MotionBoard Cloud(WebAPI/systemdatasources).
 
 
 Hardware Requirements
