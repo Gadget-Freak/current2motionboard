@@ -9,6 +9,7 @@ Hardware Requirements
 =============
 
 * [M5Stack](http://m5stack.com/)
+* CT sensor(CTT-10-CLS-CV10)
 
 Network Requirements
 =============
