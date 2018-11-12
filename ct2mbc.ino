@@ -16,9 +16,9 @@ const int sendlimit = 60; //１秒あたりの送信用CTクランプデータ�
 
 const int sensorPin = 36;   //CTクランプ接続ピン
 double cmp = 0.0;           //電流値演算用
-const char* host = "iot-cloud.motionboard.jp"; //MotionBoardエンドポイント
+const char *host = "iot-cloud.motionboard.jp"; //MotionBoardエンドポイント
 String mbiot = "/motionboard/rest/tracking/data/upload/public"; //MotionBoard API
-const char* boundry = "multipartboundary"; //Multipartリクエスト用境界文字
+const char *boundry = "multipartboundary"; //Multipartリクエスト用境界文字
 
 String jstring = ""; //jsonデータ生成用
 int jcnt = 0;
