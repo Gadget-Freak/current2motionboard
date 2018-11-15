@@ -6,13 +6,13 @@
 #include <ESP32Time.h>
 
 const int maxcurrent = 10;  //CTクランプの最大アンペア数　【要設定】
-String authkey = "abcdefghijklmnopqrstuvwxyz"; //MBC認証キー　【要設定】
 String tenant = "z123abcd"; //MBCテナントID　【要設定】
 String deviceid = "foo.bar"; //デバイスID　【要設定】
-String templete = "USER01"; //テンプレート名　【要設定】
 const char *ssid = "WIFISSIDHERE"; //WiFi SSID　【要設定】
 const char *password = "WIFIPASSHERE"; //WiFiパスワード　【要設定】
-const int sendlimit = 60; //１秒あたりの送信用CTクランプデータの上限数 　※最小設定可能値=1　最大設定可能値=50
+String templete = "USER01"; //テンプレート名　【要設定】
+String authkey = "abcdefghijklmnopqrstuvwxyz"; //MBC認証キー　【要設定】
+const int sendlimit = 60; //１秒あたりの送信用CTクランプデータの上限数 　※最小設定可能値=1　最大設定可能値=60
 
 const int sensorPin = 36;   //CTクランプ接続ピン
 double cmp = 0.0;           //電流値演算用
